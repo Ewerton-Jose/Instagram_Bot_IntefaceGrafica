@@ -13,11 +13,19 @@ class telaPython:
                        [sg.Text('Tag:    ',size=(5,0)), sg.Input(key='tag')],
                        [sg.Button('enviar')]]
 
+        self.layote2 = [[sg.Text('Digite os comentarios de sua preferência')],
+                        [sg.Text('Comentário 1: '), sg.Input(key='comentário1')],
+                        [sg.Text('Comentário 2: '), sg.Input(key='comentário2')],
+                        [sg.Text('Comentário 3: '), sg.Input(key='comentário3')],
+                        [sg.Text('Comentário 4: '), sg.Input(key='comentário4')],
+                        [sg.Text('Comentário 5: '), sg.Input(key='comentário5')],
+                        [sg.Button('Enviar')]]
 
-        # -----------Janela--------------
+        # -----------Janelas--------------
         self.janela = sg.Window('Dados do usuário',size=(400,130)).layout(self.layote)
-
+        self.janela2 = sg.Window('comentario 1: ',size=(400,200)).layout(self.layote2)
         # --------Extrair os dados-----------
+    @property
     def iniciar(self):
         self.button, self.values = self.janela.Read()
         usuario = self.values['Usuário']
@@ -27,12 +35,26 @@ class telaPython:
         print(self.values)
         return y
 
+    @property
+    def iniciar2(self):
+        self.button, self.values = self.janela2.Read()
+        comentário1 = self.values['comentário1']
+        comentário2 = self.values['comentário2']
+        comentário3 = self.values['comentário3']
+        comentário4 = self.values['comentário4']
+        comentário5 = self.values['comentário5']
+        x = [comentário1,comentário2,comentário3,comentário4,comentário5]
+        print(self.values)
+        return x
+
 class instragamBot:
-    def __init__(self, usuario, senha, tag):
+    def __init__(self, usuario, senha, tag, listax2):
         self.usuario = usuario
         self.senha = senha
         self.tag = tag
+        self.listax2 = listax2
         self.driver = webdriver.Firefox(executable_path="C:/Users/multa/PycharmProjects/TesteInterface/geckodriver.exe")
+        self.contador = 1
 
     def login(self):
         driver = self.driver
@@ -74,23 +96,23 @@ class instragamBot:
             driver.get(pic_hrfs)
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             try:
-                comentarios = ['Wooow','Incrível','massa!!','Que demais']
                 driver.find_element_by_class_name("Ypffh").click()
                 campo_comentario = driver.find_element_by_class_name("Ypffh")
                 time.sleep(random.randint(2,5))
-                self.digite_como_humano(random.choice(comentarios),campo_comentario)
+                self.digite_como_humano(random.choice(self.listax2),campo_comentario)
                 time.sleep(random.randint(30,120))
                 driver.find_element_by_xpath("//button[contains(text(),'Publicar')]").click()
-                time.sleep(5)
+                self.contador = self.contador + 1
 
             except Exception as e:
                 print(e)
-
+                print(self.contador)
 
 tela = telaPython()
-x = tela.iniciar()
+x = tela.iniciar
 nome = x[0]
 senha = x[1]
 tag = x[2]
-bot = instragamBot(nome,senha,tag)
+x2list = tela.iniciar2
+bot = instragamBot(nome,senha,tag,x2list)
 bot.login()
