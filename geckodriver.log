@@ -1,35 +1,47 @@
-1614379493610	geckodriver	INFO	Listening on 127.0.0.1:54543
-1614379496542	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\multa\\AppData\\Local\\Temp\\rust_mozprofilehAJlss"
+1614456891893	geckodriver	INFO	Listening on 127.0.0.1:56637
+1614456894841	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\multa\\AppData\\Local\\Temp\\rust_mozprofileQAV3aj"
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1614379509727	Marionette	INFO	Listening on port 54551
-1614379510413	Marionette	WARN	TLS certificate errors will be ignored for this session
-1614379510481	Marionette	ERROR	[18] No reply from Marionette:Register
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1614379511417	Marionette	ERROR	[33] No reply from Marionette:Register
-1614379522470	Marionette	ERROR	[35] No reply from Marionette:Register
-1614379525140	Marionette	ERROR	[37] No reply from Marionette:Register
-[Parent 4688, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
-1614379539827	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:235:19
-TimedPromise@chrome://marionette/content/sync.js:220:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
-webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+1614456916036	Marionette	INFO	Listening on port 56645
+1614456916821	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614456917119	Marionette	ERROR	[15] No reply from Marionette:Register
+1614456919981	Marionette	ERROR	[33] No reply from Marionette:Register
+Marionette threw an error: TypeError: this.curBrowser.contentBrowser is null
+GeckoDriver.prototype.navigateTo@chrome://marionette/content/driver.js:1258:3
 
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+1614456925431	Marionette	ERROR	[35] No reply from Marionette:Register
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+IPDL protocol error: Handler returned error code!
 
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
 
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+IPDL protocol error: Handler returned error code!
 
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
 
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+IPDL protocol error: Handler returned error code!
 
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
 
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1614379548438	Marionette	INFO	Stopped listening on port 54551
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/1a129e1d8984.js, line 204: NS_ERROR_NOT_INITIALIZED: 
+1614456929958	Marionette	INFO	Stopped listening on port 56645
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x5F0005,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
 
+1614457005620	geckodriver	INFO	Listening on 127.0.0.1:56712
+1614457008677	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\multa\\AppData\\Local\\Temp\\rust_mozprofilevkthFo"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614457015596	Marionette	INFO	Listening on port 56720
+1614457015749	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614457015910	Marionette	ERROR	[18] No reply from Marionette:Register
+1614457016592	Marionette	ERROR	[23] No reply from Marionette:Register
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1614457025525	Marionette	INFO	Stopped listening on port 56720

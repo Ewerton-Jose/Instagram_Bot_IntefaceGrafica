@@ -53,7 +53,7 @@ class instragamBot:
         self.senha = senha
         self.tag = tag
         self.listax2 = listax2
-        self.driver = webdriver.Firefox(executable_path="C:/Users/multa/PycharmProjects/TesteInterface/geckodriver.exe")
+        self.driver = webdriver.Firefox(executable_path="C:/Users/multa/OneDrive/Documentos/GitHub/Instagram_Bot_IntefaceGrafica/geckodriver.exe")
         self.contador = 1
 
     def login(self):
