@@ -3,6 +3,12 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 import random
+import os
+from pathlib import Path
+
+cwd = os.getcwd()
+xoli = f'{cwd}'.replace(' \ '.strip(), ('/') )
+xoli = xoli + '/geckodriver.exe'
 
 class telaPython:
     def __init__(self):
@@ -48,12 +54,14 @@ class telaPython:
         return x
 
 class instragamBot:
-    def __init__(self, usuario, senha, tag, listax2):
+    def __init__(self, usuario, senha, tag, listax2, cwd):
         self.usuario = usuario
         self.senha = senha
         self.tag = tag
         self.listax2 = listax2
-        self.driver = webdriver.Firefox(executable_path="C:/Users/multa/OneDrive/Documentos/GitHub/Instagram_Bot_IntefaceGrafica/geckodriver.exe")
+        xoli = f'{cwd}'.replace(' \ '.strip(), ('/') )
+        xoli = xoli + '/geckodriver.exe'
+        self.driver = webdriver.Firefox(executable_path=xoli)
         self.contador = 1
 
     def login(self):
@@ -114,5 +122,5 @@ nome = x[0]
 senha = x[1]
 tag = x[2]
 x2list = tela.iniciar2
-bot = instragamBot(nome,senha,tag,x2list)
+bot = instragamBot(nome,senha,tag,x2list,cwd)
 bot.login()
