@@ -1,324 +1,37 @@
-1614456891893	geckodriver	INFO	Listening on 127.0.0.1:56637
-1614456894841	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\multa\\AppData\\Local\\Temp\\rust_mozprofileQAV3aj"
+1614806728136	geckodriver	INFO	Listening on 127.0.0.1:51518
+1614806731047	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\multa\\AppData\\Local\\Temp\\rust_mozprofile7IMnkE"
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
-1614456916036	Marionette	INFO	Listening on port 56645
-1614456916821	Marionette	WARN	TLS certificate errors will be ignored for this session
-1614456917119	Marionette	ERROR	[15] No reply from Marionette:Register
-1614456919981	Marionette	ERROR	[33] No reply from Marionette:Register
-Marionette threw an error: TypeError: this.curBrowser.contentBrowser is null
-GeckoDriver.prototype.navigateTo@chrome://marionette/content/driver.js:1258:3
-
-1614456925431	Marionette	ERROR	[35] No reply from Marionette:Register
-JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/1a129e1d8984.js, line 204: NS_ERROR_NOT_INITIALIZED: 
-1614456929958	Marionette	INFO	Stopped listening on port 56645
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x5F0005,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
-
-1614457005620	geckodriver	INFO	Listening on 127.0.0.1:56712
-1614457008677	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\multa\\AppData\\Local\\Temp\\rust_mozprofilevkthFo"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1614457015596	Marionette	INFO	Listening on port 56720
-1614457015749	Marionette	WARN	TLS certificate errors will be ignored for this session
-1614457015910	Marionette	ERROR	[18] No reply from Marionette:Register
-1614457016592	Marionette	ERROR	[23] No reply from Marionette:Register
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1614457025525	Marionette	INFO	Stopped listening on port 56720
-1614462290174	geckodriver	INFO	Listening on 127.0.0.1:57670
-1614462293166	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\multa\\AppData\\Local\\Temp\\rust_mozprofileXX8d4Z"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1614462317148	Marionette	INFO	Listening on port 57678
-1614462317667	Marionette	WARN	TLS certificate errors will be ignored for this session
-1614462317766	Marionette	ERROR	[15] No reply from Marionette:Register
-1614462318913	Marionette	ERROR	[26] No reply from Marionette:Register
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x3A00D4,name=PContent::Msg_ScriptErrorWithStack) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x3A00D4,name=PContent::Msg_ScriptErrorWithStack) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x3A00D4,name=PContent::Msg_ScriptErrorWithStack) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x3A00D4,name=PContent::Msg_ScriptErrorWithStack) Channel closing: too late to send/recv, messages will be lost
-
-1614462380868	Marionette	INFO	Stopped listening on port 57678
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 5198: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]
-("", "(unknown module)"))
-1614462341083	Marionette	INFO	Listening on port 57751
-1614462341191	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
 JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 968: TypeError: this._storage is null
-1614462342674	Marionette	ERROR	[21] No reply from Marionette:Register
-1614462342740	Marionette	ERROR	[23] No reply from Marionette:Register
-Marionette threw an error: TypeError: chromeWindow is null
-waitForNavigationCompleted@chrome://marionette/content/navigate.js:349:3
-GeckoDriver.prototype.navigateTo@chrome://marionette/content/driver.js:1250:18
-
+1614806737237	Marionette	INFO	Listening on port 51526
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 122: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine mercadolivre@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
 console.warn: SearchService: "_init: abandoning init due to shutting down"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-1614462349180	Marionette	INFO	Stopped listening on port 57751
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1614806739808	Marionette	INFO	Stopped listening on port 51526
 JavaScript error: resource:///modules/EveryWindow.jsm, line 37: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]
 JavaScript error: resource://gre/modules/CrashManager.jsm, line 789: AbortError: Could not dispatch task to background thread
-Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\multa\\AppData\\Local\\Temp\\rust_mozprofilePCAlZz"
+Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\multa\\AppData\\Local\\Temp\\rust_mozprofileBrLYav"
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1614462385481	Marionette	INFO	Listening on port 57790
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1614462753988	Marionette	INFO	Stopped listening on port 57790
-1614463049396	geckodriver	INFO	Listening on 127.0.0.1:57936
-1614463051813	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\multa\\AppData\\Local\\Temp\\rust_mozprofilegIqkgR"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1614463062728	Marionette	INFO	Listening on port 57944
-1614463063184	Marionette	WARN	TLS certificate errors will be ignored for this session
-1614463063244	Marionette	ERROR	[15] No reply from Marionette:Register
-1614463063977	Marionette	ERROR	[23] No reply from Marionette:Register
+1614806780741	Marionette	INFO	Listening on port 51558
+1614806781030	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614806781083	Marionette	ERROR	[15] No reply from Marionette:Register
+1614806782180	Marionette	ERROR	[23] No reply from Marionette:Register
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1614463087348	Marionette	INFO	Stopped listening on port 57944
-1614463524815	geckodriver	INFO	Listening on 127.0.0.1:58062
-1614464109241	geckodriver	INFO	Listening on 127.0.0.1:58274
-1614464112228	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\multa\\AppData\\Local\\Temp\\rust_mozprofileTpmJSl"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1614464118591	Marionette	INFO	Listening on port 58283
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1614464162084	Marionette	INFO	Stopped listening on port 58283
-4464156270	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\multa\\AppData\\Local\\Temp\\rust_mozprofiledFaEcL"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1614464165058	Marionette	INFO	Listening on port 58336
-1614464165330	Marionette	WARN	TLS certificate errors will be ignored for this session
-1614464165424	Marionette	ERROR	[15] No reply from Marionette:Register
-1614464166628	Marionette	ERROR	[33] No reply from Marionette:Register
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1614464243546	Marionette	INFO	Stopped listening on port 58336
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1614464697186	geckodriver	INFO	Listening on 127.0.0.1:58475
-1614464700153	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\multa\\AppData\\Local\\Temp\\rust_mozprofilerkHqgk"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
-JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 968: TypeError: this._storage is null
-console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
-console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
-console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 422))
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.addObserver]
-JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 122: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
-console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
-console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
-console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
-console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
-console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
-console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
-console.error: "Could not load engine mercadolivre@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
-console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
-console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
-console.warn: SearchService: "_init: abandoning init due to shutting down"
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
-JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
-JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
-1614465018372	geckodriver	INFO	Listening on 127.0.0.1:58583
-1614465021382	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\multa\\AppData\\Local\\Temp\\rust_mozprofiledtGCpo"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1614465026398	Marionette	INFO	Listening on port 58591
-1614465026931	Marionette	WARN	TLS certificate errors will be ignored for this session
-1614465027022	Marionette	ERROR	[15] No reply from Marionette:Register
-1614465028083	Marionette	ERROR	[23] No reply from Marionette:Register
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1614465054204	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:235:19
-TimedPromise@chrome://marionette/content/sync.js:220:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
-webdriverClickElement@chrome://marionette/content/interaction.js:179:31
-1614465124525	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:235:19
-TimedPromise@chrome://marionette/content/sync.js:220:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
-webdriverClickElement@chrome://marionette/content/interaction.js:179:31
-1614465170618	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:235:19
-TimedPromise@chrome://marionette/content/sync.js:220:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
-webdriverClickElement@chrome://marionette/content/interaction.js:179:31
-1614465210747	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:235:19
-TimedPromise@chrome://marionette/content/sync.js:220:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
-webdriverClickElement@chrome://marionette/content/interaction.js:179:31
-1614465300355	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:235:19
-TimedPromise@chrome://marionette/content/sync.js:220:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
-webdriverClickElement@chrome://marionette/content/interaction.js:179:31
-1614465353028	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:235:19
-TimedPromise@chrome://marionette/content/sync.js:220:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
-webdriverClickElement@chrome://marionette/content/interaction.js:179:31
-1614465416753	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:235:19
-TimedPromise@chrome://marionette/content/sync.js:220:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
-webdriverClickElement@chrome://marionette/content/interaction.js:179:31
-1614465518506	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:235:19
-TimedPromise@chrome://marionette/content/sync.js:220:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
-webdriverClickElement@chrome://marionette/content/interaction.js:179:31
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-1614465571477	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:235:19
-TimedPromise@chrome://marionette/content/sync.js:220:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
-webdriverClickElement@chrome://marionette/content/interaction.js:179:31
-JavaScript error: , line 0: TypeError: Error in body stream
-JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 453: TypeError: this.contentWindow is null
-JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 569: TypeError: this.contentWindow is null
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1614465622499	Marionette	INFO	Stopped listening on port 58591
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1614466931597	geckodriver	INFO	Listening on 127.0.0.1:59236
-1614466934485	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\multa\\AppData\\Local\\Temp\\rust_mozprofile59Pm46"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1614466941530	Marionette	INFO	Listening on port 59244
-1614466942123	Marionette	WARN	TLS certificate errors will be ignored for this session
-1614466942302	Marionette	ERROR	[15] No reply from Marionette:Register
-1614466943131	Marionette	ERROR	[33] No reply from Marionette:Register
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1614466953657	Marionette	INFO	Stopped listening on port 59244
-1614467019167	geckodriver	INFO	Listening on 127.0.0.1:59301
-1614467022187	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\multa\\AppData\\Local\\Temp\\rust_mozprofilezqzmyA"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
-JavaScript error: resource://activity-stream/lib/ASRouterNewTabHook.jsm, line 61: TypeError: this._router is null
-console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 688))
-JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 122: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
-console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
-console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
-console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
-console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
-console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
-console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
-console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
-console.error: "Could not load engine mercadolivre@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
-console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
-console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
-console.warn: SearchService: "_init: abandoning init due to shutting down"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
-JavaScript error: resource://gre/modules/CrashManager.jsm, line 789: AbortError: Could not dispatch task to background thread
-1614467091028	geckodriver	INFO	Listening on 127.0.0.1:59350
-1614467093884	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\multa\\AppData\\Local\\Temp\\rust_mozprofileGzzkh5"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 240: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsINavHistoryService.removeObserver]
-JavaScript error: resource://activity-stream/lib/ASRouterNewTabHook.jsm, line 61: TypeError: this._router is null
-console.warn: SearchService: "_init: abandoning init due to shutting down"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-console.error: services.settings: 
-  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: resource://gre/modules/CrashManager.jsm, line 789: AbortError: Could not dispatch task to background thread
-Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\multa\\AppData\\Local\\Temp\\rust_mozprofileLfVJG9"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
-JavaScript error: resource://activity-stream/lib/ASRouterNewTabHook.jsm, line 61: TypeError: this._router is null
-console.error: "Could not load engine google@search.mozilla.org: TypeError: AddonManagerInternal._getProviderByName(...) is undefined"
-console.error: "Could not load engine wikipedia@search.mozilla.org: TypeError: AddonManagerInternal._getProviderByName(...) is undefined"
-console.error: "Could not load engine mercadolivre@search.mozilla.org: TypeError: AddonManagerInternal._getProviderByName(...) is undefined"
-console.error: "Could not load engine bing@search.mozilla.org: TypeError: AddonManagerInternal._getProviderByName(...) is undefined"
-console.error: "Could not load engine ddg@search.mozilla.org: TypeError: AddonManagerInternal._getProviderByName(...) is undefined"
-console.warn: SearchService: "_init: abandoning init due to shutting down"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/JSONFile.jsm, line 196: Error: Data is not ready.
-JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.addObserver]
-JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 122: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: uncaught exception: 2147500036
-console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
-JavaScript error: resource://gre/modules/CrashManager.jsm, line 789: AbortError: Could not dispatch task to background thread
-1614467288487	geckodriver	INFO	Listening on 127.0.0.1:59446
-1614467291511	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\multa\\AppData\\Local\\Temp\\rust_mozprofileA0or4w"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1614467296647	Marionette	INFO	Listening on port 59455
-1614467296930	Marionette	WARN	TLS certificate errors will be ignored for this session
-1614467297062	Marionette	ERROR	[18] No reply from Marionette:Register
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1614467298667	Marionette	ERROR	[32] No reply from Marionette:Register
-JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1614467311755	Marionette	INFO	Stopped listening on port 59455
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1614467510718	geckodriver	INFO	Listening on 127.0.0.1:59544
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/0a26e64f8ab3.js, line 204: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/0a26e64f8ab3.js, line 204: NS_ERROR_NOT_INITIALIZED: 
+1614806809241	Marionette	INFO	Stopped listening on port 51558
