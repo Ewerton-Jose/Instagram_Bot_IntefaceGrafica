@@ -211,3 +211,25 @@ webdriverClickElement@chrome://marionette/content/interaction.js:179:31
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1616455628312	geckodriver	INFO	Listening on 127.0.0.1:59327
+1616455631203	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EVERTO~1\\AppData\\Local\\Temp\\rust_mozprofilehPhPGT"
+[Parent 10720, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616455672499	Marionette	INFO	Listening on port 59337
+1616455672940	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616455679581	Marionette	INFO	Stopped listening on port 59337
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5F0005,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
+
+1616455986936	geckodriver	INFO	Listening on 127.0.0.1:59436
+1616455989943	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\EVERTO~1\\AppData\\Local\\Temp\\rust_mozprofilefdb1eY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616456001689	Marionette	INFO	Listening on port 59444
+1616456001836	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616456023734	Marionette	INFO	Stopped listening on port 59444
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
